@@ -1,0 +1,30 @@
+{
+  "backup": "/home/by/230-eio-backup-20261019-171242",
+  "pmu_hashes": {
+    "src/rtsmart/rtsmart/kernel/bsp/maix3/drivers/interdrv/pmu/pmu_rtc.c": "21cd032909f48add7efdcf0c5176caed5f50bca23a919837ba25c3a26913e201",
+    "src/rtsmart/rtsmart/kernel/bsp/maix3/drivers/interdrv/pmu/pmu_int4_monitor.h": "e2eabc4ef014bff2dae4721689acd4799cfb35f2a6952ca82bceccf00a20bca6",
+    "src/rtsmart/rtsmart/kernel/bsp/maix3/drivers/interdrv/pmu/Kconfig.pad67": "e7ea35480d06933d9381dacc7e2c20f1808cf9e4ee5405007552cb7422202e75",
+    "src/rtsmart/rtsmart/kernel/bsp/maix3/drivers/interdrv/pmu/Kconfig.pad66": "1118ae05130dfb51327f53b765e7064100e013e9f00f5222a9534bf1882dbf39",
+    "src/rtsmart/rtsmart/kernel/bsp/maix3/drivers/interdrv/pmu/SConscript": "2e3dd6d5f4de2aaea123478ecc2fed649a3ca4abda4f7094951c214c87daaeb8",
+    "src/rtsmart/rtsmart/kernel/bsp/maix3/drivers/interdrv/pmu/pmu_priv.h": "818b7d4b302a2563d1e7ab71f48ddaf08fde1b9728eb7c1935d1715c44cab161",
+    "src/rtsmart/rtsmart/kernel/bsp/maix3/drivers/interdrv/pmu/Kconfig.pad69": "ab2b6d30c10c146a96c18e4883ac357b83350be88b4a166e557a77dd48d04114",
+    "src/rtsmart/rtsmart/kernel/bsp/maix3/drivers/interdrv/pmu/Kconfig.pad64": "75008f133e1fb516ebfa56748d4685f8cd48391cb5dbe4f338fdab6eed4227f1",
+    "src/rtsmart/rtsmart/kernel/bsp/maix3/drivers/interdrv/pmu/Kconfig.pad65": "2d3c1659f7af1664d2b54b341614deb03173f12de54ca0dea3f8e6608e278a0b",
+    "src/rtsmart/rtsmart/kernel/bsp/maix3/drivers/interdrv/pmu/Kconfig.pad68": "f115fb03da8bb912e38d174c8659245d1abafb07d183d7818c05da6124d5fc14",
+    "src/rtsmart/rtsmart/kernel/bsp/maix3/drivers/interdrv/pmu/pmu_pwrkey.c": "de6016105af2580c4e7c370d2750afe328c2c2ee6cc333a5fd6aa5fb7f65a767",
+    "src/rtsmart/rtsmart/kernel/bsp/maix3/drivers/interdrv/pmu/drv_pmu.c": "7508a45ce11b902b09de0326b0d0889f6c0a365cfa742586c6e06d5ada8884cb",
+    "src/rtsmart/rtsmart/kernel/bsp/maix3/drivers/interdrv/pmu/pmu_userdev.c": "e51fc3074189c410cc45f041d03a030229ed9c5eb392201a6bd0e49977313483",
+    "src/rtsmart/rtsmart/kernel/bsp/maix3/drivers/interdrv/pmu/drv_pmu.h": "2e8926e8ceadc3eb9c5cf1671c1bf3be345790caa3fc35eb3a0a3bf672844b1c",
+    "src/canmv/port/machine/machine_pmu.c": "028b4b850c238459d71eac676e64633c76643f8c8a61902c221c28827387c18c",
+    "src/canmv/port/machine/modmachine.c": "53e2c5a9a9f3b6e5c6f50492e9e1c4f77f1fda97478afe830026643ea6ec82eb",
+    "src/rtsmart/libs/rtsmart_hal/drivers/pmu/drv_pmu.c": "6d0a08a1781789a0bb25d19cce999eec24201bc9b2cb5803a8a8f79efdecf949",
+    "src/rtsmart/libs/rtsmart_hal/drivers/pmu/drv_pmu.h": "7f53c5d7a3a0a443dba08846c158892c09fb258bf4e61977f17b5d305c2e4453"
+  },
+  "changed": [
+    "src/rtsmart/rtsmart/kernel/bsp/maix3/drivers/interdrv/Kconfig",
+    "src/rtsmart/rtsmart/kernel/bsp/maix3/drivers/interdrv/sdio/drv_sdhci.c",
+    "src/rtsmart/rtsmart/kernel/bsp/maix3/configs/k230d_canmv_bpi_zero_defconfig",
+    "src/rtsmart/rtsmart/kernel/bsp/maix3/.config"
+  ],
+  "flashed": false
+}

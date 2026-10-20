@@ -51,6 +51,31 @@ To manage the source code, you need to install the `repo` tool:
 
 ### Get the Source Code
 
+For the LIVALL development snapshot, initialize in a new directory:
+
+```bash
+repo init -u https://github.com/livall-2026/manifest -b livall-main -m default.xml \
+  --repo-url=https://github.com/canmv-k230/git-repo.git --repo-branch stable
+repo sync -c -j4
+```
+
+This branch follows the official development manifest. Its tracking branches
+are resolved to a reproducible snapshot in `default.xml`; fixed third-party
+dependencies remain at the revisions selected by upstream.
+
+Local customizations retain the PMU shutdown handshake, GPIO startup guard,
+`machine.PMU`, eMMC/1.8V, RTL8733BS on SDIO1 and CDC/MTP/ADB selection.
+Storage drivers come from current upstream, with HS200 disabled by user choice.
+The upstream composite USB implementation is used with the Windows MS OS
+property-interface bounds fix retained. No dynamic preload-layout override is
+applied. Always build with `env -u DEBUG make`.
+
+Reports named `pre-sync`, `upstream-upgrade`, `repair` and `storage-fix` are
+historical. Current validation is recorded in the LIVALL manifest repository.
+A successful build does not imply hardware validation.
+
+The following commands describe the original upstream checkout:
+
 Initialize and sync the repository to get download the source code:
 
 ```bash
@@ -107,3 +132,13 @@ This process will compile the software tailored to your selected board configura
 
 This project is open-source and welcomes contributions.
 For detailed information on how to contribute, please refer to the [CONTRIBUTING.md](CONTRIBUTING.md) file.
+
+## Release build environment
+
+Build with `env -u DEBUG make`. MicroPython treats any nonempty `DEBUG` value
+(including `release` and `0`) as a debug build: it selects `-Og` and skips
+stripping the final ELF. This is separate from RT-Smart `CONFIG_RT_DEBUG`.
+When changing this environment, first run `env -u DEBUG make canmv-clean`
+to rebuild cached CanMV objects and relink the ELF. The release image uses
+the upstream fixed rtapp preload address; its stripped ELF must fit the
+128 MiB board's 42.67 MiB preload window.

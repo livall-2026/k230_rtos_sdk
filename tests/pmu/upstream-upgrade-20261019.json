@@ -1,0 +1,224 @@
+{
+  "backup": "/home/by/230-upstream-backup-20261019-141959",
+  "repositories": [
+    {
+      "path": ".",
+      "name": "canmv_k230",
+      "before": "4bfcebb0b56bb4c2c02f8438c1308fa37bd12a18",
+      "after": "effb2f82e822f4b5c4de2b8ee59e61a02b1a6171",
+      "subject": "MINI use 4G modem via usb"
+    },
+    {
+      "path": "src/uboot/uboot",
+      "name": "u-boot",
+      "before": "56a131d12108009012eca0204e7dd610a3e7d618",
+      "after": "87041d630cdcd545dacfec19f1e90a093689dada",
+      "subject": "Fix Makefile to correct object file naming for LPDDR4 1066 without ODT configuration"
+    },
+    {
+      "path": "src/opensbi/opensbi",
+      "name": "opensbi",
+      "before": "ea1ceab9f0af65251e4a5c7d943a1cfa5e9002d6",
+      "after": "ea1ceab9f0af65251e4a5c7d943a1cfa5e9002d6",
+      "subject": "speed up boot time"
+    },
+    {
+      "path": "src/rtsmart/rtsmart",
+      "name": "rtsmart",
+      "before": "773612b14769775b9ee0520db02856d34a6536b5",
+      "after": "01d9d1c91fbd9dd68feedea15a370fbc3a25a3bf",
+      "subject": "feat: add DHCP renew to force immediate DISCOVER after modem dial, cutting link-up latency"
+    },
+    {
+      "path": "src/rtsmart/libs",
+      "name": "k230_rtsmart_lib",
+      "before": "edaf07b3cc7feb51fa356d7383b808ec55616919",
+      "after": "ace49c5bc05a929af7ec84e26146ebca569125fa",
+      "subject": "fix(modem): drain AT port via a single reader to stop USB-induced net stalls"
+    },
+    {
+      "path": "src/rtsmart/libs/kmodel",
+      "name": "nncase_kmodels_v2_11",
+      "before": "830f035e8907b89015e15c4a85cf7f59e06c4175",
+      "after": "0843f558a9cd9b9da1ddf45b214bd570ac628fc5",
+      "subject": "add feature.kmodel for mot"
+    },
+    {
+      "path": "src/rtsmart/examples",
+      "name": "k230_rtsmart_examples",
+      "before": "1358c5118d1d97bd2bd6d511565b9e86001d96fe",
+      "after": "b5297275a958919420beef2afa6ba839eefd6821",
+      "subject": "refactor(sample_vo_mix_order): enhance argument parsing and frame handling"
+    },
+    {
+      "path": "src/rtsmart/mpp",
+      "name": "mpp",
+      "before": "e27cdd28679716da7dad1719d18631812719487d",
+      "after": "1d761d12d84642c261a04d3c78ff15c4c5f0350a",
+      "subject": "Sync SDK: b0638988 - refactor(vo): enhance error handling in layer initialization and connector setup"
+    },
+    {
+      "path": "src/rtsmart/rtsmart/kernel/bsp/maix3/drivers/extdrv/aic8800/firmware",
+      "name": "aic8800_fw",
+      "before": "2a47560abfa473ef7bff32321ef3db94a469d92d",
+      "after": "2a47560abfa473ef7bff32321ef3db94a469d92d",
+      "subject": "firmware: sync AIC8800 blobs with vendor SDK 5.0"
+    },
+    {
+      "path": "src/rtsmart/libs/3rd-party/freetype/freetype",
+      "name": "freetype",
+      "before": "1452355de99d22b0cba6ccc17bf5cdf3682ef61e",
+      "after": "1452355de99d22b0cba6ccc17bf5cdf3682ef61e",
+      "subject": "* src/truetype/ttobjs.c (tt_size_run_prep): Correct scaling of CVT values."
+    },
+    {
+      "path": "src/rtsmart/libs/3rd-party/mbedtls/mbedtls",
+      "name": "mbedtls",
+      "before": "a3ff9bce6b1c554a91bb3ced0f83046442a1694c",
+      "after": "a3ff9bce6b1c554a91bb3ced0f83046442a1694c",
+      "subject": "mbedtls release v3.6.3"
+    },
+    {
+      "path": "src/rtsmart/libs/3rd-party/mqttclient/mqttclient",
+      "name": "mqttclient",
+      "before": "956e0c8dcac02d4b107ccb49f1990c7718b6b585",
+      "after": "956e0c8dcac02d4b107ccb49f1990c7718b6b585",
+      "subject": "Merge pull request #82 from wuhaogs/fix_wuhaogs_b1"
+    },
+    {
+      "path": "src/rtsmart/libs/3rd-party/lvgl/lvgl",
+      "name": "lvgl",
+      "before": "c016f72d4c125098287be5e83c0f1abed4706ee5",
+      "after": "c016f72d4c125098287be5e83c0f1abed4706ee5",
+      "subject": "chore: release v9.4.0 (#9075)"
+    },
+    {
+      "path": "src/rtsmart/libs/3rd-party/cjson/cJSON",
+      "name": "cJSON",
+      "before": "fb16e5cf358798aabb049655975cde8427101056",
+      "after": "fb16e5cf358798aabb049655975cde8427101056",
+      "subject": "Fix: Type Confusion vulnerability in cJSON_Utils caused by missing type check (#1006)"
+    },
+    {
+      "path": "src/rtsmart/libs/3rd-party/libwebsockets/libwebsockets",
+      "name": "libwebsockets",
+      "before": "9e7b013a5c14df607269af705a79d958a6c707ff",
+      "after": "9e7b013a5c14df607269af705a79d958a6c707ff",
+      "subject": "oauth: F-022: formalize cookie composition"
+    },
+    {
+      "path": "src/rtsmart/libs/3rd-party/nimble/nimble",
+      "name": "mynewt-nimble",
+      "before": "70da7f3a05c3ded36c08c56e481fb400c5c29bac",
+      "after": "70da7f3a05c3ded36c08c56e481fb400c5c29bac",
+      "subject": "porting: Update ports syscfg"
+    },
+    {
+      "path": "src/rtsmart/examples/3rd-party/iperf/iperf",
+      "name": "iperf",
+      "before": "c9b74229d0d9bfec6d2307b66b43c29a7665ad0b",
+      "after": "c9b74229d0d9bfec6d2307b66b43c29a7665ad0b",
+      "subject": "Merge pull request #2047 from davidBar-On/issues-510-830-set-first-packets-DSCP-and-TOS"
+    },
+    {
+      "path": "src/canmv",
+      "name": "canmv",
+      "before": "8f620e570e90363678bd2fb9fdb22f4e16ba8fbf",
+      "after": "277ddb6ef340ca16d9eb231878727ec9e9a0b052",
+      "subject": "feat(examples): add DMIC record & playback example (#59)"
+    },
+    {
+      "path": "src/canmv/micropython",
+      "name": "micropython",
+      "before": "0295137e60c0de862c8ee72d81c88d9e57e3973b",
+      "after": "0295137e60c0de862c8ee72d81c88d9e57e3973b",
+      "subject": "Update gc, add new function gc.sys_total."
+    },
+    {
+      "path": "src/canmv/micropython/lib/micropython-lib",
+      "name": "micropython-lib",
+      "before": "e025c843b60e93689f0f991d753010bb5bd6a722",
+      "after": "e025c843b60e93689f0f991d753010bb5bd6a722",
+      "subject": "requests: Fix detection of iterators in chunked data requests."
+    },
+    {
+      "path": "src/canmv/micropython/lib/mynewt-nimble",
+      "name": "micropyhon-mynewt-nimble",
+      "before": "42849560ba7906f023f61e5f7ff3709ba2c1dfca",
+      "after": "42849560ba7906f023f61e5f7ff3709ba2c1dfca",
+      "subject": "nimble/porting: Use static initialiser for g_msys_pool_list."
+    },
+    {
+      "path": "src/canmv/resources/ybsdcard",
+      "name": "ybsdcard",
+      "before": "c6ce8fab643c8aad22b0db97b9ff1f10d4fd8d94",
+      "after": "c6ce8fab643c8aad22b0db97b9ff1f10d4fd8d94",
+      "subject": "fix: \u9002\u914d\u65b0\u56fa\u4ef6 LVGL \u663e\u793a\u4e0e\u6444\u50cf\u5934\u9884\u89c8"
+    },
+    {
+      "path": "src/canmv/port/3rd-party/lv_bindings/lvgl",
+      "name": "lvgl",
+      "before": "1bfdecf585bb50fbb22ed1c38450b5c9eb600196",
+      "after": "1bfdecf585bb50fbb22ed1c38450b5c9eb600196",
+      "subject": "fix(layer): add drawing synchronization before layer blend (#4290)"
+    },
+    {
+      "path": "src/canmv/port/3rd-party/lv_bindings/pycparser",
+      "name": "pycparser",
+      "before": "3cf6bf5eb16f5eadd4a058e41596145c407a79ad",
+      "after": "3cf6bf5eb16f5eadd4a058e41596145c407a79ad",
+      "subject": "Update TODO to mention bdist_wheel"
+    },
+    {
+      "path": ".repo/manifests",
+      "name": "manifest",
+      "before": "ab04758de72673ab22327b3d1b297af36caa0518",
+      "after": "ab04758de72673ab22327b3d1b297af36caa0518",
+      "subject": "fix: update libwebsockets revision in default.xml"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "output/k230d_canmv_bpi_zero_defconfig/images/rtsmart/rtthread.bin",
+      "bytes": 4794112,
+      "sha256": "09ae15008f898c8ba811fab7475115d7aed9e6819eee8c220f46ff6de5805d03"
+    },
+    {
+      "path": "output/k230d_canmv_bpi_zero_defconfig/canmv/micropython",
+      "bytes": 19355440,
+      "sha256": "bb393bc3d3192aafa4bc9f370a0b57965540538b51283e6c1addaf6481bbbbfd"
+    },
+    {
+      "path": "output/k230d_canmv_bpi_zero_defconfig/CanMV_K230D_Zero_micropython_local_nncase_v2.11.0.img",
+      "bytes": 671088640,
+      "sha256": "03b776f1ac7966c5e5536fe7b0b9e43c7da3b3cc78dad90b444d9ebd0880278b"
+    },
+    {
+      "path": "output/k230d_canmv_bpi_zero_defconfig/CanMV_K230D_Zero_micropython_local_nncase_v2.11.0.img.gz",
+      "bytes": 334672741,
+      "sha256": "2db0dedfff0e86001a5b70abfbf6df29ad1c286e5fd63da8a9327eca6cc0b144"
+    },
+    {
+      "path": "output/k230d_canmv_bpi_zero_defconfig/CanMV_K230D_Zero_micropython_local_nncase_v2.11.0_ota.kdimg",
+      "bytes": 10952704,
+      "sha256": "9f98d0d81dd70d16cc5c1d061a5abb846ecc1db14ed1471df271cbd1e385843b"
+    },
+    {
+      "path": "output/k230d_canmv_bpi_zero_defconfig/CanMV_K230D_Zero_micropython_local_nncase_v2.11.0_ota.kdimg.gz",
+      "bytes": 10814619,
+      "sha256": "3f694f62620f0b526d4e8a8336df8f3ff4dd73c40b37c3a9359e8a0df6fd679d"
+    }
+  ],
+  "checks": [
+    "full SDK make succeeded",
+    "PMU C host tests passed",
+    "48 recorder regression tests passed",
+    "new mpy-cross compiled PMU recorder",
+    "gzip integrity passed",
+    "MP PMU/HAL symbols linked",
+    "hardware settings and PMU clock fix present",
+    "untracked custom source preserved byte-for-byte",
+    "git diff --check passed"
+  ],
+  "board_touched": false
+}

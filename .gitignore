@@ -46,3 +46,6 @@ skills/
 .claude
 .codex
 .copilot
+
+# Local release migration backups
+.release-backups/

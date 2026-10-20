@@ -1,0 +1,86 @@
+{
+  "backup": "/home/by/230-repair-backup-20261019-144837",
+  "checks": [
+    "actual old wrapper assertion reproduced",
+    "actual repaired sampling wrapper passed",
+    "PMU notification/state tests passed",
+    "48 recorder regressions passed",
+    "compiled CDC/MTP/ADB descriptor validated",
+    "actual USB serial builder tested",
+    "kernel and MP symbols linked",
+    "root SDK configuration byte-identical to repair baseline",
+    "gzip integrity passed"
+  ],
+  "configuration": [
+    "RT_USING_RTC_PMU",
+    "RT_PMU_INT4_SHUTDOWN",
+    "RT_PMU_SHUTDOWN_WAKEUP",
+    "RT_PMU_SHUTDOWN_WAKEUP_PAD68",
+    "RT_PMU_SHUTDOWN_WAKEUP_PAD68_HIGH_LEVEL",
+    "RT_PMU_SHUTDOWN_WAKEUP_PAD68_BIAS_KEEP",
+    "RT_SDIO0_EMMC",
+    "RT_SDIO0_1V8",
+    "RT_SDIO0_HS200",
+    "DRV_SYSCTL_BOOT_FORCE_MODE_MODE_EMMC",
+    "REALTEK_SDIO_RTL8733BS",
+    "CHERRY_USB_DEVICE_FUNC_CDC_MTP_ADB"
+  ],
+  "artifacts": [
+    {
+      "path": "/home/by/230/output/k230d_canmv_bpi_zero_defconfig/CanMV_K230D_Zero_micropython_local_nncase_v2.11.0.img",
+      "bytes": 671088640,
+      "sha256": "d10648bbcbe91c64963584ceeda557c3631cffd41dd9293565f3b008ad32cdd8"
+    },
+    {
+      "path": "/home/by/230/output/k230d_canmv_bpi_zero_defconfig/CanMV_K230D_Zero_micropython_local_nncase_v2.11.0.img.gz",
+      "bytes": 334682668,
+      "sha256": "75d780a2ea98df632f1943d36c3e3b067663ca936e5a6a05dadccb39ca8eb49a"
+    },
+    {
+      "path": "/home/by/230/output/k230d_canmv_bpi_zero_defconfig/CanMV_K230D_Zero_micropython_local_nncase_v2.11.0.img.gz.md5",
+      "bytes": 283,
+      "sha256": "b6257d95b88202d5922f78e56bd822ba4b633e9e5d038ab3c7b02ed11713358c"
+    },
+    {
+      "path": "/home/by/230/output/k230d_canmv_bpi_zero_defconfig/CanMV_K230D_Zero_micropython_local_nncase_v2.11.0_ota.kdimg",
+      "bytes": 10956800,
+      "sha256": "28fc96784aaa22a1440bce89e4729b373d5dbb9115b30159e64a0eb91a4a6f20"
+    },
+    {
+      "path": "/home/by/230/output/k230d_canmv_bpi_zero_defconfig/CanMV_K230D_Zero_micropython_local_nncase_v2.11.0_ota.kdimg.gz",
+      "bytes": 10820292,
+      "sha256": "78f8f7211b8f8fbaa3c1cf26c0917a773c2892af462770b1880b2a57362e221d"
+    },
+    {
+      "path": "/home/by/230/output/k230d_canmv_bpi_zero_defconfig/CanMV_K230D_Zero_micropython_local_nncase_v2.11.0_ota.kdimg.gz.md5",
+      "bytes": 295,
+      "sha256": "49d83214eb584d219fc7fcaa8b880a91ea58c535b059bc89843ca455635de3e9"
+    },
+    {
+      "path": "/home/by/230/output/k230d_canmv_bpi_zero_defconfig/recovery-usb-only/CanMV_K230D_Zero_recovery_USB_INT4_DISABLED.img",
+      "bytes": 671088640,
+      "sha256": "d033440f01ef6a9a5d7c7fdeb95a69188d03892439b67650f6cce5a6ef981227"
+    }
+  ],
+  "board": {
+    "dtr_assert_release": "success",
+    "runtime_usb_after_dtr": "not recovered",
+    "flashed": true,
+    "INT4_shutdown_wakeup_tested": false,
+    "flashed_by": "user",
+    "flashed_image": "recovery-usb-only/CanMV_K230D_Zero_recovery_USB_INT4_DISABLED.img",
+    "flash_log_result": "WRITE DONE 2026-10-19 14:58:57.953",
+    "runtime_usb_after_user_boot": "COM10 healthy; Code43 absent",
+    "canmv_connected": true,
+    "canmv_ready": true,
+    "canmv_version": "v1.8-67-g277ddb6",
+    "adb_transport_id_at_check": 22,
+    "adb_pull_revision": "passed 1289 bytes",
+    "adb_shell_ls": "passed with TERM=xterm-256color",
+    "INT4_monitor_enabled": false,
+    "compatibility_notes": [
+      "ADB UID serial suffix displays corrupted; use transport ID",
+      "Interactive ADB shell requires TERM=xterm-256color"
+    ]
+  }
+}

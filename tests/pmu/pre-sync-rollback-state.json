@@ -1,0 +1,198 @@
+{
+  "backup": "/home/by/230-before-rollback-20261019-171704",
+  "restore_from": "/home/by/230-upstream-backup-20261019-141959",
+  "projects": [
+    {
+      "path": ".",
+      "head": "effb2f82e822f4b5c4de2b8ee59e61a02b1a6171",
+      "restore_head": "4bfcebb0b56bb4c2c02f8438c1308fa37bd12a18",
+      "untracked": [
+        "tests/pmu/repair-validation-20261019.json",
+        "tests/pmu/storage-fix-state.json",
+        "tests/pmu/test_pmu_host.py",
+        "tests/pmu/test_pmu_startup.py",
+        "tests/pmu/test_usb_compiled.py",
+        "tests/pmu/upstream-upgrade-20261019.json"
+      ],
+      "patch": false
+    },
+    {
+      "path": "src/uboot/uboot",
+      "head": "87041d630cdcd545dacfec19f1e90a093689dada",
+      "restore_head": "56a131d12108009012eca0204e7dd610a3e7d618",
+      "untracked": [],
+      "patch": true,
+      "stash": "bff82823676414baf309e34eccc833b3e0283587"
+    },
+    {
+      "path": "src/opensbi/opensbi",
+      "head": "ea1ceab9f0af65251e4a5c7d943a1cfa5e9002d6",
+      "restore_head": "ea1ceab9f0af65251e4a5c7d943a1cfa5e9002d6",
+      "untracked": [],
+      "patch": false
+    },
+    {
+      "path": "src/rtsmart/rtsmart",
+      "head": "01d9d1c91fbd9dd68feedea15a370fbc3a25a3bf",
+      "restore_head": "773612b14769775b9ee0520db02856d34a6536b5",
+      "untracked": [
+        "kernel/bsp/maix3/drivers/interdrv/pmu/pmu_int4_monitor.h"
+      ],
+      "patch": true,
+      "stash": "d45cc3e1c5c756a0a7ee4fc80ea0c20c9162e8e5"
+    },
+    {
+      "path": "src/rtsmart/libs",
+      "head": "ace49c5bc05a929af7ec84e26146ebca569125fa",
+      "restore_head": "edaf07b3cc7feb51fa356d7383b808ec55616919",
+      "untracked": [],
+      "patch": true,
+      "stash": "4ba250a9b7b6aa57070c992858e4da86c7b03622"
+    },
+    {
+      "path": "src/rtsmart/libs/kmodel",
+      "head": "0843f558a9cd9b9da1ddf45b214bd570ac628fc5",
+      "restore_head": "830f035e8907b89015e15c4a85cf7f59e06c4175",
+      "untracked": [],
+      "patch": false
+    },
+    {
+      "path": "src/rtsmart/examples",
+      "head": "b5297275a958919420beef2afa6ba839eefd6821",
+      "restore_head": "1358c5118d1d97bd2bd6d511565b9e86001d96fe",
+      "untracked": [],
+      "patch": false
+    },
+    {
+      "path": "src/rtsmart/mpp",
+      "head": "1d761d12d84642c261a04d3c78ff15c4c5f0350a",
+      "restore_head": "e27cdd28679716da7dad1719d18631812719487d",
+      "untracked": [],
+      "patch": false
+    },
+    {
+      "path": "src/rtsmart/rtsmart/kernel/bsp/maix3/drivers/extdrv/aic8800/firmware",
+      "head": "2a47560abfa473ef7bff32321ef3db94a469d92d",
+      "restore_head": "2a47560abfa473ef7bff32321ef3db94a469d92d",
+      "untracked": [],
+      "patch": false
+    },
+    {
+      "path": "src/rtsmart/libs/3rd-party/freetype/freetype",
+      "head": "1452355de99d22b0cba6ccc17bf5cdf3682ef61e",
+      "restore_head": "1452355de99d22b0cba6ccc17bf5cdf3682ef61e",
+      "untracked": [],
+      "patch": false
+    },
+    {
+      "path": "src/rtsmart/libs/3rd-party/mbedtls/mbedtls",
+      "head": "a3ff9bce6b1c554a91bb3ced0f83046442a1694c",
+      "restore_head": "a3ff9bce6b1c554a91bb3ced0f83046442a1694c",
+      "untracked": [],
+      "patch": false
+    },
+    {
+      "path": "src/rtsmart/libs/3rd-party/mqttclient/mqttclient",
+      "head": "956e0c8dcac02d4b107ccb49f1990c7718b6b585",
+      "restore_head": "956e0c8dcac02d4b107ccb49f1990c7718b6b585",
+      "untracked": [],
+      "patch": false
+    },
+    {
+      "path": "src/rtsmart/libs/3rd-party/lvgl/lvgl",
+      "head": "c016f72d4c125098287be5e83c0f1abed4706ee5",
+      "restore_head": "c016f72d4c125098287be5e83c0f1abed4706ee5",
+      "untracked": [],
+      "patch": false
+    },
+    {
+      "path": "src/rtsmart/libs/3rd-party/cjson/cJSON",
+      "head": "fb16e5cf358798aabb049655975cde8427101056",
+      "restore_head": "fb16e5cf358798aabb049655975cde8427101056",
+      "untracked": [],
+      "patch": false
+    },
+    {
+      "path": "src/rtsmart/libs/3rd-party/libwebsockets/libwebsockets",
+      "head": "9e7b013a5c14df607269af705a79d958a6c707ff",
+      "restore_head": "9e7b013a5c14df607269af705a79d958a6c707ff",
+      "untracked": [],
+      "patch": false
+    },
+    {
+      "path": "src/rtsmart/libs/3rd-party/nimble/nimble",
+      "head": "70da7f3a05c3ded36c08c56e481fb400c5c29bac",
+      "restore_head": "70da7f3a05c3ded36c08c56e481fb400c5c29bac",
+      "untracked": [],
+      "patch": false
+    },
+    {
+      "path": "src/rtsmart/examples/3rd-party/iperf/iperf",
+      "head": "c9b74229d0d9bfec6d2307b66b43c29a7665ad0b",
+      "restore_head": "c9b74229d0d9bfec6d2307b66b43c29a7665ad0b",
+      "untracked": [],
+      "patch": false
+    },
+    {
+      "path": "src/canmv",
+      "head": "277ddb6ef340ca16d9eb231878727ec9e9a0b052",
+      "restore_head": "8f620e570e90363678bd2fb9fdb22f4e16ba8fbf",
+      "untracked": [
+        "port/machine/machine_pmu.c"
+      ],
+      "patch": true,
+      "stash": "bd0296e3d41db98bdbe0f3004f3f08f9ad7b9b7c"
+    },
+    {
+      "path": "src/canmv/micropython",
+      "head": "0295137e60c0de862c8ee72d81c88d9e57e3973b",
+      "restore_head": "0295137e60c0de862c8ee72d81c88d9e57e3973b",
+      "untracked": [],
+      "patch": false
+    },
+    {
+      "path": "src/canmv/micropython/lib/micropython-lib",
+      "head": "e025c843b60e93689f0f991d753010bb5bd6a722",
+      "restore_head": "e025c843b60e93689f0f991d753010bb5bd6a722",
+      "untracked": [],
+      "patch": false
+    },
+    {
+      "path": "src/canmv/micropython/lib/mynewt-nimble",
+      "head": "42849560ba7906f023f61e5f7ff3709ba2c1dfca",
+      "restore_head": "42849560ba7906f023f61e5f7ff3709ba2c1dfca",
+      "untracked": [],
+      "patch": false
+    },
+    {
+      "path": "src/canmv/resources/ybsdcard",
+      "head": "c6ce8fab643c8aad22b0db97b9ff1f10d4fd8d94",
+      "restore_head": "c6ce8fab643c8aad22b0db97b9ff1f10d4fd8d94",
+      "untracked": [],
+      "patch": false
+    },
+    {
+      "path": "src/canmv/port/3rd-party/lv_bindings/lvgl",
+      "head": "1bfdecf585bb50fbb22ed1c38450b5c9eb600196",
+      "restore_head": "1bfdecf585bb50fbb22ed1c38450b5c9eb600196",
+      "untracked": [],
+      "patch": false
+    },
+    {
+      "path": "src/canmv/port/3rd-party/lv_bindings/pycparser",
+      "head": "3cf6bf5eb16f5eadd4a058e41596145c407a79ad",
+      "restore_head": "3cf6bf5eb16f5eadd4a058e41596145c407a79ad",
+      "untracked": [],
+      "patch": false
+    },
+    {
+      "path": ".repo/manifests",
+      "head": "ab04758de72673ab22327b3d1b297af36caa0518",
+      "restore_head": "ab04758de72673ab22327b3d1b297af36caa0518",
+      "untracked": [],
+      "patch": false
+    }
+  ],
+  "flashed": false,
+  "retained_safety_fix": "INT4 GPIO ready guard and CDC+MTP+ADB composite registration only; old static USB serial retained"
+}
